@@ -1,0 +1,38 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-col {
+    width: 30%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}

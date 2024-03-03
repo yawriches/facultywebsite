@@ -1,0 +1,358 @@
+/* main.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    flex: 1;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 500%;
+}
+
+.message1 {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 60px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+
+.message1 h2 {
+    margin-bottom: 10px;
+}
+
+.message1 p {
+    margin-bottom: 15px;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+}
+
+.signature p {
+    margin-right: 10px;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45px;
+}
+
+.learn-more:hover {
+    background-color: #cc5500;
+}
+
+
+.subscription {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+}
+
+.subscription .container {
+    text-align: center;
+}
+
+.subscription input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscription button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription button:hover {
+    background-color: #cc5500;
+}
+
+.cover{
+    position: relative;
+    text-align: center; /* Center the text horizontally */
+}
+
+.aboutus-text{
+    position: absolute;
+    top: 50%; /* Position the text 50% from the top of the image */
+    left: 50%; /* Position the text 50% from the left of the image */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-top: -100px;
+}
+
+.aboutus-description, .department{
+   text-align: justify;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   margin-left: 110px;
+   margin-right: 110px; 
+}
+
+
+
+
+.department-heading {
+    color: #000000; /* Blue color for heading */
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.department-paragraph {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Add a line beneath each paragraph */
+.department-paragraph:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+
+
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.reg-container {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reg-h2 {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+textarea {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.submit {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #cc5500;
+}
+
+
+/* Payment Page Styles */
+
+.payment-container {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+.payment-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.payment-container .payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.payment-container .payment-methods button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ff6600;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.payment-container .payment-methods button:hover {
+    background-color: #cc5500;
+}
+
+.payment-container form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.payment-container label {
+    font-weight: bold;
+    color: #555;
+}
+
+.payment-container .payment-methods button:active {
+    background-color: rgb(5, 106, 221);
+}
+
+.payment-container input[type="text"],
+.payment-container input[type="email"],
+.payment-container input[type="number"],
+.payment-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.payment-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Credit Card Form Specific Styles */
+
+.payment-container #creditCardForm {
+    display: none;
+}
+
+/* Bank Account Form Specific Styles */
+
+.payment-container #bankAccountForm {
+    display: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .times-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  
+  .times-table th, .times-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .times-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .times-table a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .download {
+    /* Style the anchor tag */
+    text-decoration: none; /* Remove default underline */
+    color: #333; /* Set default text color */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Smooth transition for color change */
+  }
+/* Style the anchor tag on hover */
+.download:hover {
+    color: rgb(71, 71, 186); /* Change text color on hover */
+    border-bottom: 1px solid #999; /* Add underline effect */
+}
+
